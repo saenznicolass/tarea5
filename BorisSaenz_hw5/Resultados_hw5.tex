@@ -1,0 +1,197 @@
+﻿\documentclass[notitlepage,letterpaper,12pt]{article}
+\usepackage[spanish]{babel} 
+
+%guia para informes de lb de ondas 
+
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc} 
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel}
+\useunder{\uline}{\ul}{}
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
+\usepackage{url} 
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{physics} 
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{multirow}
+\usepackage[export]{adjustbox}
+\usepackage{geometry}     
+\geometry{letterpaper}     
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\chead{\bfseries {}}
+\lhead{}
+\lfoot{\it Tarea 5 Métodos Computacionales.}
+\cfoot{ }
+\rfoot{Universidad de los Andes}
+
+\voffset = -0.25in
+\textheight = 8.0in
+\textwidth = 6.5in
+\oddsidemargin = 0.in
+\headheight = 20pt
+\headwidth = 6.5in
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0,5pt}
+
+\begin{document}
+\title{Tarea 5 Métodos Computacionales}
+\author{
+\textbf{Boris Nicolas Saenz Rodriguez\thanks{e-mail: \texttt{bn.saenz10@uniandes.edu.co}}}\\
+\date{25 de mayo de 2017}
+\textit{Universidad de los Andes, Bogotá, Colombia}\\
+} 
+
+\maketitle 
+
+
+\newpage
+\section{Gráficas}
+
+\subsection{punto 1}
+
+A continuacion se presenta la grafica obtenida con el archivo  1, en la cual se evidencian los valores de X, Y y R para el circulo mas grande posible en el plano con las moleculas.
+
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{fig1.png}
+  \caption{Circulo para archivo 1 }
+  \label{ini}
+\end{figure}
+
+\newpage
+
+Seguido se evidencia el histograma en 2D correspondiente al archivo 1.
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{hist1.png}
+  \caption{Histograma en 2D para archivo 1}
+  \label{c1t100c}
+\end{figure}
+\newpage
+
+
+A continuacion se presenta la grafica obtenida con el archivo  2, en la cual se evidencian los valores de X, Y y R para el circulo mas grande posible en el plano con las moleculas.
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{fig2.png}
+  \caption{Caso 2, condicion fija, t = 100.}
+  \label{fig: cobre}
+\end{figure}
+\newpage
+
+
+Ahora, el histograma en 2d que corresponde al archivo 2 de la tarea.
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{hist2.png}
+  \caption{Histograma en 2D para archivo 2}
+  \label{c1t100p}
+\end{figure}
+\newpage
+
+\subsection{punto 2}
+
+A continuacion se presenta la grafica con los datos y el modelo de  los mejores parametros de R y C obtenidos para el punto 2 de la tarea.
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{pru.png}
+  \caption{Modelo mejores parametros R y C}
+  \label{fig: cobre}
+\end{figure}
+
+\newpage
+
+
+Asimismo se muestra la grafica de recorridos para resistencias y capacitancias junto con la grafica de recorrido para variables reales
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{RrRc.png}
+  \caption{Recorridos para resistencias y capacitancias}
+  \label{fig: cobre}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{Rqt.png}
+  \caption{Recorridos para las variables reales}
+  \label{fig: cobre}
+\end{figure}
+
+\newpage
+
+Tambien se muestran los histogramas de capacitancia y resistencia
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{hC.png}
+  \caption{Histograma de capacitancia}
+  \label{fig: cobre}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{hR.png}
+  \caption{Histograma de resistencia}
+  \label{fig: cobre}
+\end{figure}
+
+\newpage 
+
+Por ultimo se presentan las graficas de verosimilitud para resistencia y capacitancia
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{Vr.png}
+  \caption{Modelo mejores parametros R y C}
+  \label{fig: cobre}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \centering
+   \includegraphics[scale= 0.8]{Vc.png}
+  \caption{Modelo mejores parametros R y C}
+  \label{fig: cobre}
+\end{figure}
+
+
+\newpage
+
+
+%\section{Referencias}
+
+
+%\bibliographystyle{unsrt} % estilo de las referencias 
+%\bibliography{mybib.bib} %archivo con los datos de los artículos citados
+
+
+%\bibliography{mybib.bib} %archivo con los datos de los artículos citados
+
+% Forma Manual de hacer las referencias
+% Se escribe todo a mano...
+% Descomentar y jugar
+
+%\begin{thebibliography}{99}
+%\bibitem{Narasimhan1993}Narasimhan, M.N.L., (1993), \textit{Principles of
+%Continuum Mechanics}, (John Willey, New York) p. 510.
+
+%\bibitem{Demianski1985}Demia\'{n}ski M., (1985), \textit{Relativistic
+%Astrophysics,} in International Series in Natural Philosophy, Vol 110, Edited
+%by \textit{D. Ter Haar}, (Pergamon Press, Oxford).
+%\end{thebibliography}
+
+
+%Fin del documento
+\end{document}
+
